@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lic. Romina Andrea Legentil - Clases Individuales Online</title>    <style> 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        /* Botones de cambio de idioma */
+        .lang-buttons {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+
+        .lang-button {
+            padding: 8px 16px;
+            font-size: 14px;
+            cursor: pointer;
+            border: 1px solid #0056b3;
+            background-color: #ffffff;
+            color: #0056b3;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-left: 5px;
+        }
+
+        .lang-button.active {
+            background-color: #0056b3;
+            color: #ffffff;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Cabecera del Perfil */
+        .profile-header {
+            text-align: center;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        img {
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #0056b3;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            color: #222;
+            margin: 10px 0 5px 0;
+            font-size: 28px;
+        }
+
+        .subtitle {
+            color: #0056b3;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .highlight-text {
+            font-style: italic;
+            color: #555;
+        }
+
+        h2 {
+            color: #0056b3;
+            margin-top: 25px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Estilo para el botón de WhatsApp */
+        .whatsapp-btn {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            text-decoration: none;
+            padding: 12px 22px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .whatsapp-btn:hover {
+            background-color: #128C7E;
+        }
+
+        .contact-info {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-left: 4px solid #0056b3;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Botones para alternar idioma -->
+        <div class="lang-buttons">
+            <button class="lang-button active" onclick="openLang('es', this)">Español</button>
+            <button class="lang-button" onclick="openLang('en', this)">English</button>
+        </div>
+
+        <!-- CONTENIDO EN ESPAÑOL -->
+        <div id="es" class="tab-content active">
+            <div class="profile-header">
+                <img src="foto.jpg" alt="Lic. Romina Andrea Legentil" width="180" height="180">
+                <h1>Romina Andrea Legentil</h1>
+                <p class="subtitle">Licenciada en Comunicación Social & Educadora de Idiomas</p>
+                <p class="highlight-text">Clases Individuales y Personalizadas Online • Todos los niveles • Para estudiantes de todo el mundo</p>
+            </div>
+
+            <h2>Propuesta Educativa</h2>
+            <p>Las clases son individuales, directamente de profesor a alumno. Usamos la tecnología como soporte pero mantenemos una calidez humana que no la dan los videos grabados ni las tutorías tradicionales, porque cada persona es diferente y aprende a su propio ritmo.</p>
+
+            <h2>Acerca de Mí</h2>
+            <p>Licenciada en Comunicación Social con amplio conocimiento de idiomas (en especial inglés), apasionada escritora y educadora con una sólida formación académica y amplia experiencia profesional. Mi carrera me ha proporcionado una comprensión profunda de la comunicación efectiva y el uso del lenguaje en diferentes contextos.</p>
+
+            <h2>Formación Académica y Certificaciones</h2>
+            <ul>
+                <li><strong>Licenciatura en Comunicación Social:</strong> Universidad Nacional de Córdoba (2008).</li>
+                <li><strong>Certificado Nacional Superior:</strong> Anexo Facultad de Lenguas - Inglés (2008).</li>
+                <li><strong>Certificación de Inglés Nivel B1:</strong> Of The Common European Framework of Reference.</li>
+                <li><strong>Idiomas:</strong> Español (nativo), Inglés (avanzado), Italiano y Portugués.</li>
+            </ul>
+
+            <h2>Experiencia Laboral y Docente</h2>
+            <ul>
+                <li><strong>Citus Academia de Idiomas (2022 - actualidad):</strong> Enseñanza de idiomas destinada a niños y adultos, trabajando escucha, habla, escritura, lectura y comprensión mediante la plataforma Pearson.</li>
+                <li><strong>Escuela Primaria Bernardo de Monteagudo (Julio 2025 - actualidad):</strong> Docente interina de Jornada Extendida de Inglés (a cargo de 4to y 6to grado).</li>
+                <li><strong>Teacher United:</strong> Dictado de clases online para escuela virtual.</li>
+                <li><strong>Latin English School:</strong> Dictado de clases online.</li>
+                <li><strong>Instituto Privado de Educación (2011 - 2018):</strong> Clases de refuerzo educativo a cargo de la reconocida docente Irene Mingorance.</li>
+                <li><strong>CVA Medios (2009 - 2012):</strong> Auditoría de medios, transcripciones al tacto y edición de material audiovisual.</li>
+            </ul>
+
+            <h2>Habilidades Clave</h2>
+            <ul>
+                <li>Enseñanza de idiomas adaptada a cada alumno.</li>
+                <li>Redacción, escritura y uso del lenguaje.</li>
+                <li>Relaciones públicas y resolución de problemas.</li>
+                <li>Atención personalizada y trabajo en equipo.</li>
+            </ul>
+
+            <h2>Contacto</h2>
+            <p>¿Quieres consultar por horarios o iniciar tus clases? Escríbeme directamente por WhatsApp:</p>
+            <a href="https://wa.me/543516190158" class="whatsapp-btn" target="_blank">Contactar por WhatsApp</a>
+
+            <div class="contact-info">
+                <p><strong>Email:</strong> rominalegentil@gmail.com</p>
+                <p><strong>Blog:</strong> <a href="https://licrominaandrealegentil.blogspot.com/" target="_blank">licrominaandrealegentil.blogspot.com</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/romina-legentil64b26563" target="_blank">linkedin.com/in/romina-legentil</a></p>
+            </div>
+        </div>
+
+        <!-- CONTENIDO EN INGLÉS -->
+        <div id="en" class="tab-content">
+            <div class="profile-header">
+                <img src="foto.jpg" alt="Lic. Romina Andrea Legentil" width="180" height="180">
+                <h1>Romina Andrea Legentil</h1>
+                <p class="subtitle">Bachelor's Degree in Social Communication & Language Educator</p>
+                <p class="highlight-text">One-on-One Personalized Online Lessons • All Levels • Available for students worldwide</p>
+            </div>
+
+            <h2>Educational Approach</h2>
+            <p>Lessons are one-on-one, directly from teacher to student. We use technology as a support tool while maintaining genuine human warmth—something recorded videos and standard tutoring cannot offer, because every learner is different and learns at their own pace.</p>
+
+            <h2>About Me</h2>
+            <p>Bachelor's degree in Social Communication with extensive knowledge of languages (especially English), a passionate writer, and an educator with a solid academic foundation and broad professional experience. My career has provided me with a deep understanding of effective communication and language use across different contexts.</p>
+
+            <h2>Education & Qualifications</h2>
+            <ul>
+                <li><strong>Bachelor's Degree in Social Communication:</strong> Universidad Nacional de Córdoba (2008).</li>
+                <li><strong>Higher National Certificate:</strong> School of Languages Annex - English (2008).</li>
+                <li><strong>B1 Level English Certificate:</strong> Common European Framework of Reference.</li>
+                <li><strong>Languages:</strong> Spanish (Native), English (Advanced), Italian, and Portuguese.</li>
+            </ul>
+
+            <h2>Teaching & Professional Experience</h2>
+            <ul>
+                <li><strong>Citus Language Academy (2022 - Present):</strong> Teaching languages to children and adults, developing listening, speaking, writing, reading, and comprehension skills via the Pearson platform.</li>
+                <li><strong>Bernardo de Monteagudo Primary School (July 2025 - Present):</strong> Interim English Teacher for Extended Day Program (4th & 6th grade).</li>
+                <li><strong>Teacher United:</strong> Online classes for virtual school.</li>
+                <li><strong>Latin English School:</strong> Online language teacher.</li>
+                <li><strong>Private Educational Institute (2011 - 2018):</strong> Educational reinforcement classes under renowned teacher Irene Mingorance.</li>
+                <li><strong>CVA Medios (2009 - 2012):</strong> Media auditing, touch transcription, and audiovisual editing.</li>
+            </ul>
+
+            <h2>Core Skills</h2>
+            <ul>
+                <li>Tailored language teaching for individual students.</li>
+                <li>Copywriting, editing, and language structure.</li>
+                <li>Public relations and problem-solving.</li>
+                <li>Personalized customer care and teamwork.</li>
+            </ul>
+
+            <h2>Contact</h2>
+            <p>Would you like to inquire about schedules or start your lessons? Send me a message on WhatsApp:</p>
+            <a href="https://wa.me/543516190158" class="whatsapp-btn" target="_blank">Contact via WhatsApp</a>
+
+            <div class="contact-info">
+                <p><strong>Email:</strong> rominalegentil@gmail.com</p>
+                <p><strong>Blog:</strong> <a href="https://licrominaandrealegentil.blogspot.com/" target="_blank">licrominaandrealegentil.blogspot.com</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/romina-legentil64b26563" target="_blank">linkedin.com/in/romina-legentil</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openLang(langId, element) {
+            var contents = document.querySelectorAll('.tab-content');
+            contents.forEach(function(content) {
+                content.classList.remove('active');
+            });
+
+            var buttons = document.querySelectorAll('.lang-button');
+            buttons.forEach(function(button) {
+                button.classList.remove('active');
+            });
+
+            document.getElementById(langId).classList.add('active');
+            element.classList.add('active');
+        }
+    </script>
+
+</body>
+</html>
